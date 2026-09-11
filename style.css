@@ -1,0 +1,270 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#f8f8f8;
+
+}
+.app{
+    width:370px;
+    min-height:800px;
+    margin:20px auto;
+    position:relative;
+    overflow:hidden;
+    background-color:#f8f8f8;
+
+}
+.top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+
+}
+.logo{
+    width:100px;
+    font-size:28px;
+
+}
+.language{
+    border:none;
+    background-color:white;
+    padding:8px 14px;
+    border-radius:20px;
+}
+.hero{
+    position:relative;
+    min-height:390px;
+    padding:20px;
+}
+.hero-text{
+    position:relative;
+    z-index:2;
+}
+.hero-text h1{
+    font-size:40px;
+    line-height:1.05;
+    color:#202b3c;
+}
+.hero-text h1 span {
+    color: #18bd78;
+}
+
+.bike-rental {
+    margin-top: 18px;
+    font-size: 15px;
+    color: #202b3c;
+}
+
+.line {
+    width: 55px;
+    height: 2px;
+    background-color: #18bd78;
+    margin-top: 15px;
+}
+
+.tagline {
+    margin-top: 15px;
+    line-height: 1.5;
+    color: #718096;
+    font-size: 14px;
+}
+
+
+/* Bike image */
+
+.bike-image {
+    position: absolute;
+    top: 0;
+    right: -80px;
+    width: 280px;
+    z-index: 1;
+}
+
+.bike-image img {
+    width: 100%;
+    display: block;
+}
+
+
+/* Login card */
+
+.login-card {
+    position: relative;
+    z-index: 3;
+    background-color: white;
+    margin: 0 18px;
+    padding: 35px 25px 25px;
+    border-radius: 35px 35px 0 0;
+    box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.08);
+}
+
+.login-card h2 {
+    font-size: 22px;
+    color: #202b3c;
+}
+
+.login-card > p {
+    margin-top: 8px;
+    color: #a0aec0;
+    font-size: 13px;
+}
+
+
+/* Phone input */
+
+.phone-input {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.phone-input span {
+    padding-right: 12px;
+    border-right: 1px solid #ddd;
+}
+
+.phone-input input {
+    border: none;
+    outline: none;
+    margin-left: 12px;
+    width: 100%;
+}
+
+
+/* OTP button */
+
+.otp-button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: #4fd19a;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.otp-button span {
+    float: right;
+    font-size: 20px;
+}
+/* OR section */
+
+.or-section {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    margin: 18px 0;
+}
+
+.or-section span {
+    width:55px;
+    height:1px;
+    background-color: #e5e5e5;
+}
+
+.or-section p {
+    color: #9aa3ad;
+    font-size: 11px;
+    margin:0
+}
+
+
+/* Google button */
+
+.google-button {
+    width: 100%;
+    height:48px;
+    padding: 14px;
+    border: 1px solid #e5e5e5;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 13px;
+    color: #4a5568;
+    cursor: pointer;
+}
+
+.google-button span {
+    margin-right: 8px;
+}
+
+
+/* Features */
+
+.features {
+    display: flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content: space-between;
+    width:100%;
+    gap: 8px;
+    margin-top: 28px;
+}
+
+.feature {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align: center;
+    width:33.33%;
+}
+
+.feature-icon {
+    width:30px;
+    height:30px;
+    margin-bottom: 6px;
+    border-radius:50%;
+    background-color:e9fff5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+    font-size: 14px;
+    
+}
+
+.feature h4 {
+    margin:0 0 4px;
+
+    font-size: 8px;
+    color: #4a5568;
+    white-space:nowrap;
+    margin-bottom: 5px;
+}
+
+.feature p {
+    margin:0;
+    font-size: 6px;
+    color: #a0aec0;
+    line-height: 1.3;
+}
+
+
+/* Create account */
+
+.create-account {
+    text-align: center;
+    margin-top: 22px;
+    padding-bottom:20px;
+    font-size: 11px;
+}
+
+.create-account span {
+    color: #a0aec0;
+}
+
+.create-account a {
+    color: #18bd78;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 4px;
+}
